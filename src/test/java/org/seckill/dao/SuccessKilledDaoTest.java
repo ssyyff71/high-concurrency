@@ -12,7 +12,7 @@ import javax.annotation.Resource;
  * Created by Sophie on 2017/7/8.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring/mybatis-spring.xml")
+@ContextConfiguration("classpath:spring/spring-dao.xml")
 public class SuccessKilledDaoTest {
 
     @Resource
