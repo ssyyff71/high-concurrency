@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="high-concurrency" target="1.8" />
+      <module name="high-concurrency" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

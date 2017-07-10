@@ -22,7 +22,7 @@ public class SeckillExecution {
      *
      * @param seckillId
      * @param state
-     * @param stateInfo
+     *
      * @param successKilled
      */
     public SeckillExecution(long seckillId, State state, SuccessKilled successKilled) {
@@ -39,10 +39,10 @@ public class SeckillExecution {
      * @param state
      * @param stateInfo
      */
-    public SeckillExecution(long seckillId, int state, String stateInfo) {
+    public SeckillExecution(long seckillId, State state) {
         this.seckillId = seckillId;
-        this.state = state;
-        this.stateInfo = stateInfo;
+        this.state = state.getState();
+        this.stateInfo = state.getStateInfo();
     }
 
     public long getSeckillId() {
